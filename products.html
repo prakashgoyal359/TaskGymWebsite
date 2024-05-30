@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="brand-title"><a href="./index.html"><img src="./image/logo.png" alt="Brand Logo"></a></div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./classes.html">Classes</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+                <li><a href="#" class="btn" id="joinUsBtn">Join Us</a></li>
+            </ul>
+            <div class="icon">
+                <i id="search" class="fa-solid fa-search"></i>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div id="popupForm" class="popup-form">
+            <div class="popup-content">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <h2>SUBSCRIPTION PLAN</h2>
+                <form>
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mobileNumber">Mobile Number</label>
+                    <input type="tel" id="mobileNumber" name="mobileNumber" required>
+
+                    <label for="duration">Duration</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="monthly" name="duration" value="monthly" class="custom-checkbox">
+                        <label for="monthly">Monthly</label>
+                        <input type="checkbox" id="yearly" name="duration" value="yearly" class="custom-checkbox">
+                        <label for="yearly">Yearly</label>
+                    </div>
+
+                    <label for="paymentMode">Mode of Payment</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="cash" name="paymentMode" value="cash" class="custom-checkbox">
+                        <label for="cash">Cash</label>
+                        <input type="checkbox" id="online" name="paymentMode" value="online" class="custom-checkbox">
+                        <label for="online">Online</label>
+                    </div>
+
+                    <div class="personal-training-container">
+                        <label for="personalTraining">Personal Training:</label>
+                        <span class="small-text">*Free with Yearly Plan</span>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="required" name="personalTraining" value="required"
+                            class="custom-checkbox">
+                        <label for="required">Required</label>
+                        <input type="checkbox" id="notRequired" name="personalTraining" value="notRequired"
+                            class="custom-checkbox">
+                        <label for="notRequired">Not Required</label>
+                    </div>
+
+                    <div class="terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I accept all terms and conditions provided in this form.</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="nutrition">
+            <div class="glass-effect-nutrition"></div>
+            <div class="content-nutrition">
+                <h2>Nutrition & Supplement</h2>
+                <div class="underline-nutrition"></div>
+                <div class="cards-container-nutrition">
+                    <div class="card-nutrition">
+                        <img src="./image/MB-STRAWBERRY.jpeg" alt="Class Image 1">
+                        <button>Whey Protein</button>
+                    </div>
+                    <div class="card-nutrition">
+                        <img src="./image/Multivitamins.jpeg" alt="Class Image 2">
+                        <button>Multivitamins</button>
+                    </div>
+                    <div class="card-nutrition">
+                        <img src="./image/preworkout.jpeg" alt="Class Image 3">
+                        <button>Pre Wrokouts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weights">
+            <div class="glass-effect-weights"></div>
+            <div class="content-weights">
+                <h2>Weights & Machine</h2>
+                <div class="underline-weights"></div>
+                <div class="cards-container-weights">
+                    <div class="card-weights">
+                        <img src="./image/alina-chernysheva.jpeg" alt="Class Image 1">
+                        <button>Treadmill</button>
+                    </div>
+                    <div class="card-weights">
+                        <img src="./image/heidi-erickson.jpeg" alt="Class Image 2">
+                        <button>Free Weights</button>
+                    </div>
+                    <div class="card-weights">
+                        <img src="./image/fitnish-media.jpg" alt="Class Image 3">
+                        <button>Cable Machines</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="apparel">
+            <div class="glass-effect-apparel"></div>
+            <div class="content-apparel">
+                <h2>Apparel & Merchandise</h2>
+                <div class="underline-apparel"></div>
+                <div class="cards-container-apparel">
+                    <div class="card-apparel">
+                        <img src="./image/Rectangle 73.png" alt="Class Image 1">
+                        <button>Whey Protein</button>
+                    </div>
+                    <div class="card-apparel">
+                        <img src="./image/Rectangle 74.png" alt="Class Image 2">
+                        <button>Multivitamins</button>
+                    </div>
+                    <div class="card-apparel">
+                        <img src="./image/Rectangle 76.png" alt="Class Image 3">
+                        <button>Pre Wrokouts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <footer>
+            <div class="footer-left">
+                <img src="./image/logo.png" alt="Company Logo">
+                <p>Prioritize Your Fitness Goals<br>with our world class services</p>
+            </div>
+            <div class="footer-content">
+                <div class="footer-center">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center">
+                    <h3>CONTACT</h3>
+                    <ul>
+                        <li><a href="#">Help/FAQs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Mobile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center">
+                    <h3>MORE</h3>
+                    <ul>
+                        <li><a href="#">Program</a></li>
+                        <li><a href="#">Plans</a></li>
+                        <li><a href="#">Method</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="footer-right">
+                <h3>Popular Tags</h3>
+                <div class="tag-buttons">
+                    <button>ABS</button>
+                    <button>Workout</button>
+                    <button class="color">Nutrition</button>
+                    <button>Gym</button>
+                    <button>Boxing</button>
+                    <button class="color">Trainer</button>
+                    <button class="color">Facilities</button>
+                </div>
+                <div class="socialmedia">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/2a9dd86937.js" crossorigin="anonymous"></script>
+</body>
+</html>

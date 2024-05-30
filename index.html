@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="brand-title"><a href="./index.html"><img src="./image/logo.png" alt="Brand Logo"></a></div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./classes.html">Classes</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+                <li><a href="#" class="btn" id="joinUsBtn">Join Us</a></li>
+            </ul>
+            <div class="icon">
+                <i id="search" class="fa-solid fa-search"></i>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div id="popupForm" class="popup-form">
+            <div class="popup-content">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <h2>SUBSCRIPTION PLAN</h2>
+                <form>
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mobileNumber">Mobile Number</label>
+                    <input type="tel" id="mobileNumber" name="mobileNumber" required>
+
+                    <label for="duration">Duration</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="monthly" name="duration" value="monthly" class="custom-checkbox">
+                        <label for="monthly">Monthly</label>
+                        <input type="checkbox" id="yearly" name="duration" value="yearly" class="custom-checkbox">
+                        <label for="yearly">Yearly</label>
+                    </div>
+
+                    <label for="paymentMode">Mode of Payment</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="cash" name="paymentMode" value="cash" class="custom-checkbox">
+                        <label for="cash">Cash</label>
+                        <input type="checkbox" id="online" name="paymentMode" value="online" class="custom-checkbox">
+                        <label for="online">Online</label>
+                    </div>
+
+                    <div class="personal-training-container">
+                        <label for="personalTraining">Personal Training:</label>
+                        <span class="small-text">*Free with Yearly Plan</span>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="required" name="personalTraining" value="required"
+                            class="custom-checkbox">
+                        <label for="required">Required</label>
+                        <input type="checkbox" id="notRequired" name="personalTraining" value="notRequired"
+                            class="custom-checkbox">
+                        <label for="notRequired">Not Required</label>
+                    </div>
+
+                    <div class="terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I accept all terms and conditions provided in this form.</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="image-container">
+            <img src="./image/training.jpeg" alt="training" class="image">
+            <div class="overlay">
+                <h1 class="heading">Revitalize <br> your body</h1>
+                <p class="paragraph">Fall in love with taking care of yourself:<br> mind, body, and spirit.</p>
+                <div class="buttons">
+                    <button class="button">Get Started</button>
+                    <button class="button">Free Trial<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="icons-container">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="fitnessplans">
+            <h1 class="heading">Fitness Plans & Nutrition</h1>
+            <div class="image-section">
+                <div class="image-box border-bottom border-right">
+                    <a href="#"><img src="./image/weight-pound.png" alt="Image 1"></a>
+                    <span class="caption">Weight Training</span>
+                </div>
+                <div class="image-box border-bottom border-right">
+                    <a href="#"><img src="./image/yoga.png" alt="Image 2"></a>
+                    <span class="caption">Yoga</span>
+                </div>
+                <div class="image-box border-bottom">
+                    <a href="#"><img src="./image/cycling.png" alt="Image 3"></a>
+                    <span class="caption">Cycling</span>
+                </div>
+                <div class="image-box border-right">
+                    <a href="#"><img src="./image/biceps.png" alt="Image 4"></a>
+                    <span class="caption">Biceps Workout</span>
+                </div>
+                <div class="image-box border-right">
+                    <a href="#"><img src="./image/hypertrophy.png" alt="Image 5"></a>
+                    <span class="caption">Hypertrophy</span>
+                </div>
+                <div class="image-box">
+                    <a href="#"><img src="./image/running.png" alt="Image 6"></a>
+                    <span class="caption">Running</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="background-image-container-subscription">
+            <div class="glass-effect-subscription"></div>
+            <div class="content-subscription">
+                <h1 class="main-heading-subscription">Subscription Plans</h1>
+                <div class="card-section-subscription">
+                    <div class="card-subscription">
+                        <h2 class="card-heading-subscription">Basic</h2>
+                        <h4 class="card-subheading-subscription">for 12 months</h4>
+                        <h2 class="card-heading-subscription">800/month</h2>
+                        <h4 class="card-subheading-subscription">for streaming</h4>
+                        <button class="card-button-subscription">Select Plan</button>
+                    </div>
+                    <div class="card-subscription">
+                        <h2 class="card-heading-subscription">Intermediate</h2>
+                        <h4 class="card-subheading-subscription">for 12 months</h4>
+                        <h2 class="card-heading-subscription">1000/month</h2>
+                        <h4 class="card-subheading-subscription">for streaming</h4>
+                        <button class="card-button-subscription">Select Plan</button>
+                    </div>
+                    <div class="card-subscription">
+                        <h2 class="card-heading-subscription">Advanced</h2>
+                        <h4 class="card-subheading-subscription">for 12 months</h4>
+                        <h2 class="card-heading-subscription">1500/month</h2>
+                        <h4 class="card-subheading-subscription">for streaming</h4>
+                        <button class="card-button-subscription">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fitness-club-responsive-container">
+            <div class="fitness-club-upper-section">
+                <img src="./image/fitness-club.jpeg" alt="Description of Image" class="fitness-club-main-image">
+            </div>
+            <div class="fitness-club-lower-section"></div>
+            <div class="fitness-club-overlay">
+                <div class="fitness-club-overlay-content">
+                    <div class="fitness-club-image-container">
+                        <img src="./image/gm.png" alt="Image 1" class="fitness-club-overlay-image">
+                        <h2>Good Management</h2>
+                        <p>What hurts today makes you stronger tomorrow</p>
+                    </div>
+                    <div class="fitness-club-image-container">
+                        <img src="./image/pg.jpeg" alt="Image 2" class="fitness-club-overlay-image">
+                        <h2>Practice Sessions</h2>
+                        <p>Motivation is what gets you started.</p>
+                    </div>
+                    <div class="fitness-club-image-container">
+                        <img src="./image/ft.png" alt="Image 3" class="fitness-club-overlay-image">
+                        <h2>Personal Trainers</h2>
+                        <p>If it doesn't challenge you, it won't change you</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="homecard">
+            <div class="homecard-item">
+                <img src="./image/homecard3.jpg" alt="Description of Image 1" class="homecard-image">
+                <p class="homecard-paragraph">Best place for body transformation</p>
+            </div>
+            <div class="homecard-item">
+                <img src="./image/homecard2.jpg" alt="Description of Image 2" class="homecard-image">
+                <p class="homecard-paragraph">Best Cross Fit gym in this area</p>
+            </div>
+            <div class="homecard-item">
+                <img src="./image/homecard1.jpg" alt="Description of Image 3" class="homecard-image">
+                <p class="homecard-paragraph">Best Bodybuilding gym in this city it has all required equipment</p>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="footer-left">
+                <img src="./image/logo.png" alt="Company Logo">
+                <p>Prioritize Your Fitness Goals<br>with our world class services</p>
+            </div>
+            <div class="footer-content">
+                <div class="footer-center">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center">
+                    <h3>CONTACT</h3>
+                    <ul>
+                        <li><a href="#">Help/FAQs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Mobile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center">
+                    <h3>MORE</h3>
+                    <ul>
+                        <li><a href="#">Program</a></li>
+                        <li><a href="#">Plans</a></li>
+                        <li><a href="#">Method</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="footer-right">
+                <h3>Popular Tags</h3>
+                <div class="tag-buttons">
+                    <button>ABS</button>
+                    <button>Workout</button>
+                    <button class="color">Nutrition</button>
+                    <button>Gym</button>
+                    <button>Boxing</button>
+                    <button class="color">Trainer</button>
+                    <button class="color">Facilities</button>
+                </div>
+                <div class="socialmedia">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/2a9dd86937.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
